@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".Modules.Login.LoginActivity"
+    android:orientation="vertical"
+    android:backgroundTint="@color/colorLighterGrey"
+    android:gravity="center|center_vertical">
+
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_large"
+        android:background="@drawable/rounded_shape"
+        android:elevation="@dimen/margin_small"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:padding="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_small"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:layout_marginHorizontal="@dimen/margin_large"
+        android:background="@drawable/rounded_shape"
+        android:elevation="@dimen/margin_small"
+        android:padding="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_medium"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_shape_orange"
+        android:layout_marginHorizontal="@dimen/margin_large"
+        android:elevation="@dimen/margin_small"
+        android:textAllCaps="false"
+        android:text="Log in"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>

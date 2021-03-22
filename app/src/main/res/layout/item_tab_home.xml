@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="top|center"
+    android:weightSum="4"
+    android:layout_marginBottom="@dimen/margin_tiny">
+    <ImageView
+        android:id="@+id/ivFooterHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tvFooterHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textStyle="bold"
+        android:textColor="@color/footer_font_blue"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="12sp"/>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="design_fab_image_size" tools:override="true">56dp</dimen>
+
+    <dimen name="margin_tiny">3dp</dimen>
+    <dimen name="margin_tiny_medium">6dp</dimen>
+    <dimen name="margin_tiny_large">9dp</dimen>
+
+
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_small_medium">18dp</dimen>
+    <dimen name="margin_small_large">24dp</dimen>
+
+    <dimen name="margin_medium">30dp</dimen>
+
+    <dimen name="margin_large">48dp</dimen>
+    <dimen name="margin_xlarge">52dp</dimen>
+    <dimen name="margin_2xlarge">58dp</dimen>
+    <dimen name="margin_3xlarge">64dp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+</resources>
